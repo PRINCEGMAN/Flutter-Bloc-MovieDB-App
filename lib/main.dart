@@ -5,6 +5,7 @@ import 'package:path_provider/path_provider.dart';
 
 import 'screens/bottom_nav_bar.dart';
 
+
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   var dir = await getApplicationDocumentsDirectory();
